@@ -27,16 +27,15 @@
                 <a href="/" aria-label="AutoEquity Home">
                     <img src="{{ asset('images/mainLogo.png') }}"
                          alt="AutoEquity"
-                         class="h-8 md:h-30 w-auto"
-                         width="150" height="40">
+                         class="h-16 md:h-20 w-auto">
                 </a>
             </div>
 
             <nav class="hidden md:flex space-x-8 items-center">
                 @guest
                     <a href="#" class="text-sm font-medium text-gray-600 hover:text-gray-900 transition">Como funciona</a>
-                    <a href="#" class="text-sm font-medium text-gray-600 hover:text-gray-900 transition">Login</a>
-                    <a href="#" class="bg-gray-900 text-white text-sm font-medium px-5 py-2.5 rounded-xl hover:bg-gray-800 transition shadow-sm hover:shadow-md transform hover:-translate-y-0.5">
+                    <a href="/login" class="text-sm font-medium text-gray-600 hover:text-gray-900 transition">Login</a>
+                    <a href="/register" class="bg-gray-900 text-white text-sm font-medium px-5 py-2.5 rounded-xl hover:bg-gray-800 transition shadow-sm hover:shadow-md transform hover:-translate-y-0.5">
                         Começar
                     </a>
                 @endguest

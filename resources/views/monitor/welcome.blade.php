@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Home')
+@section('title', 'Dashboard')
 
 @section('content')
 
@@ -18,7 +18,7 @@
             </p>
 
             <div class="flex justify-center lg:justify-start w-full">
-                <a href="/register" class="inline-flex items-center justify-center bg-gray-900 text-white px-10 py-4 rounded-xl font-medium tracking-wide hover:bg-gray-800 transition shadow-lg text-lg">
+                <a href="/register" class="inline-flex items-center justify-center bg-gray-900 text-white px-10 py-4 rounded-xl font-medium tracking-wide hover:bg-gray-800 transition shadow-lg text-lg hover:-translate-y-0.5">
                     Começar agora
                 </a>
             </div>
