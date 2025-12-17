@@ -27,7 +27,7 @@
                 <a href="/" aria-label="AutoEquity Home">
                     <img src="{{ asset('images/mainLogo.png') }}"
                          alt="AutoEquity"
-                         class="h-8 md:h-10 w-auto"
+                         class="h-8 md:h-30 w-auto"
                          width="150" height="40">
                 </a>
             </div>
