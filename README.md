@@ -27,11 +27,11 @@ O **AutoEquity** é uma plataforma Fullstack desenvolvida para proprietários de
 
 ## Screenshots
 
-| Visão Geral | Área do Usuário |
-|:---:|:---:|
+| Visão Geral |                           Área do Usuário                           |
+|:---:|:-------------------------------------------------------------------:|
 | **Welcome Page**<br>![Welcome](screenshots/welcome.png) | **Dashboard Financeiro**<br>![Dashboard](screenshots/dashboard.png) |
-| **Home (Marcas)**<br>![Home](screenshots/home.png) | **Análise Gráfica**<br>![Análise](screenshots/analise.png) |
-| **Login**<br>![Login](screenshots/login.png) | **Minha Garagem**<br>![Veículo](screenshots/veiculo.png) |
+| **Home (Marcas)**<br>![Home](screenshots/home.png) |     **Análise Gráfica**<br>![Análise](screenshots/analise.png)      |
+| **Login**<br>![Login](screenshots/login.png) |   **Detalhes do veículo**<br>![Veículo](screenshots/veiculo.png)    |
 
 ---
 
