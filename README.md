@@ -10,7 +10,7 @@
 
 O **AutoEquity** é uma plataforma Fullstack desenvolvida para proprietários de veículos que desejam monitorar a valorização ou depreciação do seu patrimônio automotivo. A aplicação consome dados em tempo real da Tabela FIPE e gera análises gráficas de histórico de preços.
 
- **[Acesse o Projeto Online (Demo)](https://SEU-LINK-DO-RENDER-AQUI.onrender.com)**
+ **[Acesse o Projeto Online (Demo)](https://autoequity.onrender.com/)**
 
 ---
 
