@@ -124,7 +124,7 @@
 
 <footer class="bg-white border-t border-gray-200 mt-auto">
     <div class="max-w-7xl mx-auto py-8 px-4 text-center">
-        <p class="text-sm text-gray-500">&copy; {{ date('Y') }} AutoEquity. Todos os direitos reservados.</p>
+        <p class="text-sm text-gray-500">&copy; {{ date('Y') }} Gabriel Vinicius de Oliveira. Todos os direitos reservados.</p>
     </div>
 </footer>
 
