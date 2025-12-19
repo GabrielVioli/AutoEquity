@@ -25,10 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-/**
- * Função de Pesquisa Global Unificada
- * Funciona na Home, Modelos, Anos E na Garagem.
- */
 function filterGlobal() {
     let input = document.getElementById('searchInput');
     let filter = input.value.toLowerCase();

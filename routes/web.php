@@ -7,7 +7,7 @@ use App\Http\Controllers\carController;
 // Rota Pública
 Route::get('/', [MonitorController::class, 'index']);
 
-// Rotas Protegidas (Requer Login)
+// Rotas Protegidas
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

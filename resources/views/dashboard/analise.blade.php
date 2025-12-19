@@ -77,22 +77,20 @@
         new Chart(ctx, {
             type: 'line',
             data: {
-                // Labels vindas do PHP (Meses)
                 labels: {!! json_encode($labels) !!},
                 datasets: [{
                     label: 'Valor FIPE (R$)',
-                    // Dados vindos do PHP (Preços)
                     data: {!! json_encode($data) !!},
                     borderWidth: 3,
-                    borderColor: '#4F46E5', // Cor da linha (Indigo)
-                    backgroundColor: 'rgba(79, 70, 229, 0.1)', // Cor do preenchimento embaixo
+                    borderColor: '#4F46E5',
+                    backgroundColor: 'rgba(79, 70, 229, 0.1)',
                     pointBackgroundColor: '#fff',
                     pointBorderColor: '#4F46E5',
                     pointBorderWidth: 2,
                     pointRadius: 4,
                     pointHoverRadius: 6,
                     fill: true,
-                    tension: 0.4 // Deixa a linha curva (suave)
+                    tension: 0.4
                 }]
             },
             options: {
@@ -100,7 +98,7 @@
                 maintainAspectRatio: false,
                 plugins: {
                     legend: {
-                        display: false // Esconde a legenda padrão
+                        display: false
                     },
                     tooltip: {
                         callbacks: {
@@ -119,13 +117,13 @@
                 },
                 scales: {
                     y: {
-                        beginAtZero: false, // O gráfico começa perto do valor do carro, não do zero
+                        beginAtZero: false,
                         grid: {
                             color: '#f3f4f6'
                         },
                         ticks: {
                             callback: function(value, index, values) {
-                                return 'R$ ' + value / 1000 + 'k'; // Formata eixo Y (Ex: 50k)
+                                return 'R$ ' + value / 1000 + 'k';
                             }
                         }
                     },
